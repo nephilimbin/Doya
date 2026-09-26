@@ -6,6 +6,14 @@
 
 ## 一、Doya 是什么
 
+<p align="center">
+  <a href="https://www.bilibili.com/video/BV1BcaN6fE3o/" title="Doya 介绍视频">
+    <img src="images/intro-video-cover.jpg" width="560" alt="Doya 介绍视频封面" />
+  </a>
+  <br/>
+  <sub>▶ 视频介绍：如何将信息转为数据资产（约 6 分钟，B 站）</sub>
+</p>
+
 Doya 是**可自定义信息聚合平台**：把你关心的信息源聚到一起，AI帮你过滤、提炼、检索，主要能力：
 
 | 能力 | 说明 |
