@@ -130,7 +130,17 @@ Windows：资源管理器地址栏输入 `%USERPROFILE%\.doya` 回车即达。
 
 数据均不受影响。
 
-## 九、模块文档导航
+## 九、官方扩展包（spider 合集）
+
+安装包内置了 spider 引擎与 agent 工具包，但**不带具体的 spider 脚本**。官方整理的 15 个 spider（GitHub Trending、HuggingFace 模型榜、OpenAI / Anthropic 博客、B 站用户投稿、抖音用户视频、YouTube 频道、人大网法律文件等）以扩展包形式提供：
+
+- 下载：[Doya_1.3.0_spiders_agent.zip](https://github.com/nephilimbin/doya/releases/download/v1.3.0/Doya_1.3.0_spiders_agent.zip)（Releases 页 `v1.3.0` 附件）
+- 解压后按包内 `README.md` 操作：spider 拷入 `~/.doya/data/spiders/` 即可生效，无需重装程序
+- 抖音 spider 需另装 Node.js 并在其 `_vendor/` 目录执行 `npm install`；Cookie 经建源时的「额外参数」配置
+
+编写自己的 spider 见 [Spider 管理指南](spiders.md)。
+
+## 十、模块文档导航
 
 | 想做什么 | 看哪篇 |
 | ---- | ---- |
@@ -142,6 +152,6 @@ Windows：资源管理器地址栏输入 `%USERPROFILE%\.doya` 回车即达。
 | 数据库切换与备份 | [数据库配置](modules/database.md) |
 | 监听地址/端口，手机、局域网与公网访问 | [服务入口与远程访问](modules/service.md) |
 
-## 十、问题反馈
+## 十一、问题反馈
 
 发现问题或想提需求，欢迎到 GitHub 提出（附上 `logs/` 目录里的报错段更易定位）：<https://github.com/nephilimbin/Doya/issues>

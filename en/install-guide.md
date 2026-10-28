@@ -122,7 +122,17 @@ Key points:
 
 Your data is unaffected in all cases.
 
-## 9. Module Documentation
+## 9. Official Extension Pack (Spider Collection)
+
+The installer bundles the spider engine and the agent toolkit, but **not the spider scripts themselves**. A collection of 15 official spiders (GitHub Trending, HuggingFace models, OpenAI / Anthropic blogs, Bilibili user uploads, Douyin user videos, YouTube channels, NPC legal documents, and more) is provided as an extension pack:
+
+- Download: [Doya_1.3.0_spiders_agent.zip](https://github.com/nephilimbin/doya/releases/download/v1.3.0/Doya_1.3.0_spiders_agent.zip) (attached to the `v1.3.0` release)
+- Follow the `README.md` inside the pack: copy the spiders into `~/.doya/data/spiders/` and they take effect — no reinstall needed
+- The Douyin spider additionally requires Node.js and running `npm install` inside its `_vendor/` directory; its cookie is configured via the source's extra parameters
+
+For writing your own spiders, see the [Spider Guide](spiders.md).
+
+## 10. Module Documentation
 
 | Task | Document |
 | ---- | ---- |
@@ -134,6 +144,6 @@ Your data is unaffected in all cases.
 | Switch databases and manage backups | [Database Configuration](modules/database.md) |
 | Listen address/port; mobile, LAN, and public network access | [Service Endpoint & Remote Access](modules/service.md) |
 
-## 10. Feedback
+## 11. Feedback
 
 Found a problem or have a feature request? Feel free to open one on GitHub (including the error lines from the `logs/` directory makes diagnosis easier): <https://github.com/nephilimbin/Doya/issues>
